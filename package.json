@@ -1,0 +1,25 @@
+{
+  "name": "react-shell",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohebifar/react-shell.git"
+  },
+  "keywords": [
+    "react",
+    "cli",
+    "shell",
+    "interface"
+  ],
+  "author": "Mohamad Mohebifar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohebifar/react-shell/issues"
+  },
+  "homepage": "https://github.com/mohebifar/react-shell#readme"
+}

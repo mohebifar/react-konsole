@@ -2,9 +2,11 @@
   "name": "react-shell",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel src --out-dir lib",
+    "watch": "watch \"npm run babel\" src"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,18 @@
   "bugs": {
     "url": "https://github.com/mohebifar/react-shell/issues"
   },
-  "homepage": "https://github.com/mohebifar/react-shell#readme"
+  "homepage": "https://github.com/mohebifar/react-shell#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "watch": "^0.17.1"
+  },
+  "whitelist": [
+    "lib"
+  ],
+  "dependencies": {
+    "react": "^0.14.6"
+  }
 }
